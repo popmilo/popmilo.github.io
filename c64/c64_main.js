@@ -24,7 +24,7 @@ var Module = {
 	},
 	c64startup: function() {
 		console.log("nesto se desilo");
-		Module.loadFile('submerged.d64', false);
+		Module.loadFile('puzzle.d64', false);
 		//Module.loadSnapshot('Joystick_Test.s64');
 	},
 	canvas: document.getElementById('canvas'),
